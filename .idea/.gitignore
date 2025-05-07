@@ -1,0 +1,124 @@
+### PyCharm ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Virtual Environment (venv, .venv, env, .env, virtualenv, _venv, etc.)
+venv/
+.venv/
+env/
+.env/
+virtualenv/
+_venv/
+**/venv/
+**/.venv/
+**/env/
+**/.env/
+**/virtualenv/
+**/_venv/
+dist/
+build/
+eggs/
+lib64/
+sdist/
+wheels/
+*.egg-info/
+.tox/
+.pytest_cache/
+
+### Python ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.whl
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib64/
+sdist/
+setup.py
+*.egg-info/
+*.whl
+wheelhouse/
+_build/
+bdist/
+bdist-rpm/
+bdist-wininst/
+distribute_setup.py
+pkginfo/
+sdist/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Compiled static assets
+*.pyc
+*.pyo
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# PyDev specific
+*.pydevproject
+.project
+
+# OS X specific
+.DS_Store
+
+# Linux specific
+*.swp
+*.swo
+
+# Other common folders and files
+node_modules/
+static/
+media/
+logs/
+temp/
+tmp/
+output/
+data/
+*.log
+*.bak
+*.swp
+*~
