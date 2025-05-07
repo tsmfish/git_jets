@@ -1,0 +1,13 @@
+graph TD
+    A[main.setup] -->|screen, clock, background, aircraft_bitmaps| B[main.loop]
+    A --> C[background.create_background]
+    A --> D[aircraft.create_aircraft_bitmap]
+    C -->|background| B
+    D -->|aircraft_bitmaps| B
+    B -->|t, i| E[flight_path.get_jet_coordinates]
+    E -->|x, y, angle| F[aircraft.draw_aircraft]
+    B --> G[background.draw_background]
+    G -->|screen| H[pygame.display.flip]
+    F -->|screen| H
+    E --> I[flight_path.lemniscate]
+    I -->|x, y| E
