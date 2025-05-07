@@ -1,4 +1,6 @@
 # Window settings
+import math
+
 WIDTH, HEIGHT = 1680, 1050
 FPS = 90
 
@@ -23,6 +25,12 @@ SKY_BOTTOM = (19, 3, 202)
 SCALE = 820
 SPEED = 0.01
 OFFSET = 0.2
+
+# Lissajous curve parameters
+LISSAJOUS_SCALE = 400  # Reduced scale for Lissajous curve to fit screen
+LISSAJOUS_A = 3  # Frequency for x
+LISSAJOUS_B = 2  # Frequency for y
+LISSAJOUS_DELTA = math.pi / 2  # Phase shift
 
 # Aircraft bitmap
 aircraft_bitmap = [
